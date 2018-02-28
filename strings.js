@@ -39,3 +39,30 @@ else if (animal.toLowerCase() === "alligator") {
 
 
 
+//Challenge #5
+
+// var yarn = "the better string made of wool";
+
+// var domString = "<h4>" + yarn + "</h4>";
+
+// var myDiv = document.getElementById("yarn-holder");st
+
+// myDiv.innerHTML = domString;
+
+
+//Challenge #6
+
+var str = "IBMWLOVEmbcatsbmw";
+
+var cats = str.replace(/[BMWbmw]/g,"");
+
+var catString = "<h1>" + cats + "<h1>";
+
+var catElement = document.getElementById("cat-holder");
+
+catElement.innerHTML = catString;
+
+
+
+
+
